@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main container -->
+  <div class="container">
+    <!-- Title -->
+    <h1 class="title">"Portz"</h1>
+
+    <!-- Stock form -->
+    <form id="stockForm">
+      <label for="symbolInput">'Enter a stock symbol'</label>
+      <input type="text" id="symbolInput" placeholder="AAPL" autocomplete="off" />
+      <button type="submit">Get Stock Price</button>
+    </form>
+
+    <!-- Result container -->
+    <div id="result"></div>
+
+    <!-- Theme toggle -->
+    <div class="theme-buttons">
+      <label class="switch">
+        <input id="themeToggle" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <!-- Rainbow border -->
+    <div class="rainbow-border"></div>
+
+    <!-- Error container -->
+    <div id="error"></div>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="main.js"></script>
+</body>
+</html>
